@@ -4,3 +4,6 @@
 
 @media(max-width:620px){.doc .topbar>a.tb-btn{display:none}.doc .brand{font-size:14px}.doc .tb-actions{gap:5px}}
 .doc-download{display:inline-flex;align-items:center;font-weight:600;font-size:13px;border:1px solid var(--border);border-radius:9px;padding:6px 12px;text-decoration:none;margin-top:6px}
+
+/* Decorative hero glow extends beyond the page; keep it from creating horizontal scrolling. */
+body.home{overflow-x:clip}
